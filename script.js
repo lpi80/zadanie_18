@@ -21,7 +21,7 @@ const movies = [
 
 ];
 
-let moviesElements = movies.map(function (movie) {
+const moviesElements = movies.map(function (movie) {
     return React.createElement('li', {key: movie.id},
         React.createElement('h2', {}, movie.title),
         React.createElement('p', {}, movie.desc),
